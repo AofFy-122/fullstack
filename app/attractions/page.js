@@ -10,7 +10,7 @@ export async function getData() {
   }
   return res.json()
 }
-
+//test
 export default async function page() {
   if (!process.env.NEXT_PUBLIC_API_URL) {
     return null
